@@ -83,9 +83,8 @@
             this.ResultadoLabel.AutoSize = true;
             this.ResultadoLabel.Location = new System.Drawing.Point(286, 48);
             this.ResultadoLabel.Name = "ResultadoLabel";
-            this.ResultadoLabel.Size = new System.Drawing.Size(35, 13);
+            this.ResultadoLabel.Size = new System.Drawing.Size(0, 13);
             this.ResultadoLabel.TabIndex = 5;
-            this.ResultadoLabel.Text = "label3";
             // 
             // Ejercicio1
             // 
