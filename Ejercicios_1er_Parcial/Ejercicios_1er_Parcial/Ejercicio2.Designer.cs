@@ -122,6 +122,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Ejercicio2";
             this.Text = "Ejercicio2";
+            this.Load += new System.EventHandler(this.Ejercicio2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

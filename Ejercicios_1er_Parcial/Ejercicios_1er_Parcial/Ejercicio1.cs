@@ -51,5 +51,10 @@ namespace Ejercicios_1er_Parcial
 
             return num1 + num2;
         }
+
+        private void Ejercicio1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

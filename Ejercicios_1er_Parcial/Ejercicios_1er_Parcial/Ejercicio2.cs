@@ -82,6 +82,11 @@ namespace Ejercicios_1er_Parcial
             //}
             return resultado;
         }
+
+        private void Ejercicio2_Load(object sender, EventArgs e)
+        {
+
+        }
         //private decimal Ejecutar2(decimal n1, decimal n2)
         //{
         //    string operacion = OperacionesComboBox.Text;
