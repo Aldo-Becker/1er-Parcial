@@ -7,29 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using POO;
 
 namespace Ejercicios_1er_Parcial
 {
-    public partial class Ejercicio8 : Form
+    public partial class Ejercicio9 : Form
     {
-        public Ejercicio8()
+        public Ejercicio9()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RecorrerDeUnoEnUno(1, 100);
-        }
-         //Recursividad
-        private void RecorrerDeUnoEnUno(int valInicial, int valFinal)
-        {
-            listBox1.Items.Add(valInicial);
+            Coche miCoche = new Coche();
 
-            if (valInicial < valFinal)
-            {
-                RecorrerDeUnoEnUno(valInicial + 1, valFinal);
-            }
+            Coche miCoche2 = new Coche("Toyota", "22R");
         }
     }
 }
