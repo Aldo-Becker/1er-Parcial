@@ -16,7 +16,7 @@ namespace Ejercicios_1er_Parcial
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejercicio9());
+            Application.Run(new Exa3());
         }
     }
 }

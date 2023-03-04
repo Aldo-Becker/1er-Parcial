@@ -49,29 +49,6 @@ namespace Ejercicios_1er_Parcial
 
             decimal total = await PromedioAsync(nota1, nota2, nota3, nota4);
 
-            if (nota1 > 100 && nota1 < 0)
-            {
-                errorProvider2.SetError(Nota1TextBox, "Nota Ingresada No Cumple con el Rango Establecido (0-100)");
-                return;
-            }
-            if (nota2 > 100 && nota1 < 0)
-            {
-                errorProvider2.SetError(Nota2TextBox, "Nota Ingresada No Cumple con el Rango Establecido (0-100)");
-                return;
-            }
-            if (nota3 > 100 && nota1 < 0)
-            {
-                errorProvider2.SetError(Nota3TextBox, "Nota Ingresada No Cumple con el Rango Establecido (0-100)");
-                return;
-            }
-            if (nota4 > 100 && nota1 < 0)
-            {
-                errorProvider2.SetError(Nota4TextBox, "Nota Ingresada No Cumple con el Rango Establecido (0-100)");
-                return;
-            }
-
-            errorProvider2.Clear();
-
 
             if (total >= 65)
             {
